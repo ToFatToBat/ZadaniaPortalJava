@@ -1,4 +1,4 @@
-package projektowanieObiektowe1;
+package projektowanieObiektowe1.zadanie1;
 
 public class Cabrio {
     String name;
