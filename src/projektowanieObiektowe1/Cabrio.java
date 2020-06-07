@@ -45,14 +45,14 @@ public class Cabrio {
         isRoofOpen = roofOpen;
     }
 
-    public void changeRoofPosition() {
-        if (isMoving = true) {
+    public void changeRoofPosition(boolean isRoofOpen) {
+        if (isMoving) {
             System.out.println("Auto porusza sie nie mozna zmienic pozycji dachu.");
-        } else if (isMoving = false){
-            if (isRoofOpen = true) {
+        } else {
+            if (isRoofOpen) {
                 isRoofOpen = false;
                 System.out.println("Dach został zamkniety");
-            } else if (isRoofOpen = false){
+            } else {
                     isRoofOpen = true;
                     System.out.println("Dach zostal otwarty");
                 }
