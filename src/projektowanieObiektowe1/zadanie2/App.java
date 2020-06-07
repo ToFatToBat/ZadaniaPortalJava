@@ -3,7 +3,7 @@ package projektowanieObiektowe1.zadanie2;
 public class App {
     public static void main(String[] args) {
         Employee employee1 = new Employee("Karol", "Kowalski", 3000);
-        Employee employee2 = new Employee("Janusz", "Zeromski", 9000);
+        Employee employee2 = new Employee("Janusz", "Zeromski", 5000);
 
         double nettoYearPayment = PaymentCalculator.nettoYearPayment(employee1);
         double bruttoYearPayment = PaymentCalculator.bruttoYearPayment(employee1);

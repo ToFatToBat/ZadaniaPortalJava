@@ -13,4 +13,5 @@ public class PaymentCalculator {
         double bruttoTaxPayment = employee.getPayment() * 0.2;
         return  (nettoPayment + bruttoTaxPayment + ZUS_PAYMENT) * 12;
     }
+
 }
